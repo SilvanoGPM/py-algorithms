@@ -1,3 +1,5 @@
+from .util.sort_util import compare
+
 def insertion_sort(array_to_sort: list, asc = True):
     array = array_to_sort.copy()
     n = len(array)
@@ -6,7 +8,7 @@ def insertion_sort(array_to_sort: list, asc = True):
         current = array[i]
         j = i - 1
 
-        while (j >= 0 and (current < array[j] if asc else current > array[j])):
+        while (j >= 0 and compare(not asc, current, array[j])):
             array[j + 1] = array[j]
             j -= 1
 
