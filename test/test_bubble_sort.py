@@ -1,8 +1,6 @@
 import unittest
-import sys
 
 from sorters.bubble_sort import bubble_sort
-
 
 class BubbleSortTest(unittest.TestCase):
     def test_bubble_sort_asc(self):
