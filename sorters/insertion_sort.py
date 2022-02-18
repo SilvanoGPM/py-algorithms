@@ -1,4 +1,4 @@
-from .util.sort_util import compare
+from util.global_util import compare
 
 def insertion_sort(array_to_sort: list, asc = True):
     array = array_to_sort.copy()

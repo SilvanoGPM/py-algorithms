@@ -1,4 +1,4 @@
-from .util.sort_util import swap, compare
+from util.global_util import swap, compare
 
 def get_index(array: list, start = 0, asc = True):
     index = start
