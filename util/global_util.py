@@ -8,3 +8,7 @@ def swap(arr: list, x: int, y: int):
 
 def compare(asc: bool, x, y):
     return x > y if asc else x < y
+
+
+def compare_included(asc: bool, x, y):
+    return x >= y if asc else x <= y
