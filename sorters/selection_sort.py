@@ -20,4 +20,3 @@ def selection_sort(array_to_sort: list, asc = True):
             swap(array, i, index)
 
     return array
-
