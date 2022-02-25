@@ -4,7 +4,7 @@
     <img width=300 src="./logo.png" />
 </p>
 
-<p align="center">Alguns algoritmos desenvolvidos com python. </p>
+<p align="center">Alguns algoritmos desenvolvidos com python.</p>
 
 ## :bulb: Ideia principal
 
