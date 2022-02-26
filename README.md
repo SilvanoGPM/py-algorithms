@@ -10,7 +10,7 @@
 
 Alguns algoritmos famosos(ou não), desenvolvidos com python. Este repositório tem o objetivo de guardar códigos de diferentes algoritmos, para que possam ser implementados/estudados no futuro.
 
-## :wrehch: Testes
+## :wrench: Testes
 
 No diretório *test*, estão alguns contidos os arquivos para testar cada algoritmo.
 É utilizado o **framework unittest** para realizar os testes.
