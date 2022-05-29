@@ -1,4 +1,4 @@
-from util.global_util import swap, compare_included
+from util.sort_util import swap, compare_included
 
 def partition(array: list, start: int, end: int, asc: bool):
     pivot = array[end]

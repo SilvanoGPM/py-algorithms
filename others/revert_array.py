@@ -1,4 +1,4 @@
-from util.global_util import swap
+from util.sort_util import swap
 
 def revert_array(array_to_revert: list):
     array = array_to_revert.copy()

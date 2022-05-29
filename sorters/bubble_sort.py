@@ -1,4 +1,4 @@
-from util.global_util import compare, swap
+from util.sort_util import compare, swap
 
 def bubble_sort(array_to_sort: list, asc = True):
     array = array_to_sort.copy()

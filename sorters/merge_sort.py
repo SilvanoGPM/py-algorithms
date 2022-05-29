@@ -1,4 +1,4 @@
-from util.global_util import compare
+from util.sort_util import compare
 
 def merge(array: list, start: int, middle: int, end: int, asc: bool):
     left = array[start:middle]
