@@ -2,6 +2,7 @@ import unittest
 
 from sorters.insertion_sort import insertion_sort
 
+
 class InsertionSortTest(unittest.TestCase):
     def test_bubble_sort_asc(self):
         array = [4, 1, 6, 7, 3, 2]

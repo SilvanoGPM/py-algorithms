@@ -2,6 +2,7 @@ import unittest
 
 from sorters.merge_sort import merge_sort
 
+
 class MergeSortTest(unittest.TestCase):
     def test_merge_sort_asc(self):
         array = [4, 1, 6, 7, 3, 2]

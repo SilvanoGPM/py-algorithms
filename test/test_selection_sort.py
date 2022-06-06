@@ -2,6 +2,7 @@ import unittest
 
 from sorters.selection_sort import selection_sort
 
+
 class SelectionSortTest(unittest.TestCase):
     def test_selection_sort_asc(self):
         array = [4, 1, 6, 7, 3, 2]
