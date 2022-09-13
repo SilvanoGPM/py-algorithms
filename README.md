@@ -12,7 +12,7 @@ Alguns algoritmos famosos(ou não), desenvolvidos com python. Este repositório 
 
 ## :wrench: Testes
 
-No diretório *test*, estão alguns contidos os arquivos para testar cada algoritmo.
+No diretório *test*, estão contidos os arquivos para testar cada algoritmo.
 É utilizado o **framework unittest** para realizar os testes.
 Na linha de comando, você pode executar o comando a seguir para executá-los:
 
