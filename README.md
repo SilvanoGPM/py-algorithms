@@ -1,7 +1,7 @@
 <h1 align="center">Py Algorithms</h1>
 
 <p align="center">
-    <img width=300 src="./logo.png" />
+    <img width=300 src="./.github/logo.png" />
 </p>
 
 <p align="center">Alguns algoritmos desenvolvidos com python.</p>
