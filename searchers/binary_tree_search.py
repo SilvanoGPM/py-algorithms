@@ -1,6 +1,6 @@
 from graphs.binary_tree import BinaryTree, Node
 
-class BinaryTreeSearch(BinaryTree):
+class SearchBinaryTree(BinaryTree):
     def search(self, value) -> Node:
         actual = self.root
 
