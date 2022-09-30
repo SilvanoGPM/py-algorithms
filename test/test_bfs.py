@@ -21,9 +21,9 @@ class TestBreadthFirstSearch(unittest.TestCase):
 
         first_path = bfs(g, 0, 1)
         second_path = bfs(g, 0, 4)
-        empty_path = bfs(g, 1, 0)
+        none_path = bfs(g, 1, 0)
 
         self.assertListEqual(first_path, expected_first_path)
         self.assertListEqual(second_path, expected_second_path)
         self.assertListEqual(second_path, expected_second_path)
-        self.assertListEqual(empty_path, [])
+        self.assertListEqual(none_path, [])
