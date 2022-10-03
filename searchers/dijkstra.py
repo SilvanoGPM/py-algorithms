@@ -11,7 +11,7 @@ def dijkstra(graph: Graph, origin):
     while heap:
         cost, node = heap.pop(0)
 
-        for adjacent, weight in graph.graph[node]:
+        for adjacent, weight in graph.nodes[node]:
             adjacent_cost = path_costs[adjacent]['cost']
             
             if adjacent_cost == INFINITY or adjacent_cost > cost + weight:
